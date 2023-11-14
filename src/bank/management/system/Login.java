@@ -101,9 +101,6 @@ public class Login extends JFrame implements ActionListener {
         setVisible(true);
 
     }
-    public static void main(String[] args) {
-        new Login();
-    }
 
     // make the buttons do something by implementing the ActionListener
     @Override
@@ -119,8 +116,11 @@ public class Login extends JFrame implements ActionListener {
             }
 
         }catch (Exception E){
-
+            E.printStackTrace();
         }
 
+    }
+    public static void main(String[] args) {
+        new Login();
     }
 }

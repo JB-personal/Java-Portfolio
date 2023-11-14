@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f7db90-cf49-45d7-9b58-17d3f34cc06e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BankManagementSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/atm2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/backbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/provider.png" afterDir="false" />
+    <list default="true" id="55f7db90-cf49-45d7-9b58-17d3f34cc06e" name="Changes" comment="Beginning of Bank management System&#10;made login screen and added buttons&#10;added functionality to clear buttons, need to add to the other 2&#10;add regex to pin number field">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_tz_1_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcalendar-tz-1.3.3-4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BankManagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +25,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2XqSaysL1pMrQPfAfuu4y6ibjHF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,10 +46,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/JB/IdeaProjects/BankManagementSystem/src/Main.java"
+    "git-widget-placeholder": "BankManagementSystemProject",
+    "last_opened_file_path": "C:/Users/JB/IdeaProjects/BankManagementSystem",
+    "onboarding.tips.debug.path": "C:/Users/JB/IdeaProjects/BankManagementSystem/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JB\IdeaProjects\BankManagementSystem" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +68,15 @@
       <option name="presentableId" value="Default" />
       <updated>1699355187395</updated>
     </task>
+    <task id="LOCAL-00001" summary="Beginning of Bank management System&#10;made login screen and added buttons&#10;added functionality to clear buttons, need to add to the other 2&#10;add regex to pin number field">
+      <option name="closed" value="true" />
+      <created>1699361563785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699361563785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +89,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Beginning of Bank management System&#10;made login screen and added buttons&#10;added functionality to clear buttons, need to add to the other 2&#10;add regex to pin number field" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning of Bank management System&#10;made login screen and added buttons&#10;added functionality to clear buttons, need to add to the other 2&#10;add regex to pin number field" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
